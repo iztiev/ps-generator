@@ -88,9 +88,18 @@ function inputChanged(event) {
   }
 }
 
+function inputContainerClicked() {
+  console.log('inputContainerClicked');
+  const input = document.getElementById('letters-input');
+  input.focus();
+}
+
 function registerEventHandler() {
   const input = document.getElementById('letters-input');
   input.addEventListener('input', inputChanged);
+  const inputContainer = document.getElementById('input-container')
+  inputContainer.addEventListener('touch', inputContainerClicked);
+  inputContainer.addEventListener('click', inputContainerClicked);
 }
 
 
