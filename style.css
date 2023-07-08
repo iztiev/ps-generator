@@ -1,12 +1,6 @@
 html {
-  font-size: 8px;
+  font-size: 16px;
 }
-
-/* @media (max-width:1024px)  {
-  html {
-    font-size: 16px;
-  }
-} */
 
 * {
   box-sizing: border-box;
@@ -16,7 +10,7 @@ html {
 body {
   width: 100vw;
   height: 100vh;
-  padding: 0.05px;
+  padding: .05px;
   margin: 0;
   background: rgb(243,200,132);
   background: -moz-radial-gradient(circle, rgba(243,200,132,1) 0%, rgba(199,139,98,1) 100%);
@@ -26,16 +20,16 @@ body {
 }
 
 .container {
-  width: 44rem;
-  margin-top: 4rem;
+  width: 22rem;
+  margin-top: 2rem;
   margin-left: 50%;
   transform: translateX(-50%);
-  padding-bottom: 16rem;
+  padding-bottom: 8rem;
 }
 
 .input-container {
   width: 100%;
-  height: 9rem;
+  height: 4.5rem;
   position: relative;
 }
 
@@ -43,7 +37,7 @@ input {
   width: 100%;
   height: 100%;
   outline: none;
-  border-radius: 4rem;
+  border-radius: 2rem;
   border: 0 none;
   caret-color: transparent;
   color: transparent;
@@ -58,15 +52,15 @@ input {
   right: 0;
   display: flex;
   justify-content: center;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .list-container {
-  width: 44rem;
-  padding: 0.5rem;
+  width: 22rem;
+  padding: .25rem;
   background: #3E3D39;
-  border-radius: 4rem;
-  margin-top: 2rem;
+  border-radius: 2rem;
+  margin-top: 1rem;
 }
 
 .hidden {
@@ -74,9 +68,9 @@ input {
 }
 
 ul {
-  width: 43rem;
+  width: 21.5rem;
   list-style-type: none;
-  padding: 1rem .5rem;
+  padding: .5rem .25rem;
   margin: 0;
   background: #585858;
   background: -moz-radial-gradient(circle, #585858 0%, #3E3D39 100%);
@@ -91,28 +85,28 @@ li {
   display: flex;
   width: 100%;
   justify-content: center;
-  padding: 0.5rem 0;
+  padding: .25rem 0;
 }
 
 .letters-container div,
 li div {
-  width: 5rem;
-  height: 5rem;
+  width: 2.5rem;
+  height: 2.5rem;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 3rem;
-  line-height: 5rem;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
   font-weight: bold;
   flex-grow: 0;
   flex-shrink: 0;
   color: #6F3907;
-  text-shadow: 0.125rem 0.125rem 0 white, 0.125rem -0.125rem 0 white, -0.125rem 0.125rem 0 white, -0.125rem -0.125rem 0 white, 0.125rem 0 0 white, 0 0.125rem 0 white, -0.125rem 0 0 white, 0 -0.125rem 0 white;
-  border-radius: 2rem;
+  text-shadow: .0625rem .0625rem 0 white, .0625rem -.0625rem 0 white, -.0625rem .0625rem 0 white, -.0625rem -.0625rem 0 white, .0625rem 0 0 white, 0 .0625rem 0 white, -.0625rem 0 0 white, 0 -.0625rem 0 white;
+  border-radius: 1rem;
   text-align: center;
 }
 
 .letters-container div:not(:last-child),
 li div:not(:last-child) {
-  margin-right: 0.5rem;
+  margin-right: .25rem;
 }
 
 .letters-container div {
