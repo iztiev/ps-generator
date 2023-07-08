@@ -47,6 +47,7 @@ input {
   border: 0 none;
   caret-color: transparent;
   color: transparent;
+  font-size: 40px;
 }
 
 .letters-container {
